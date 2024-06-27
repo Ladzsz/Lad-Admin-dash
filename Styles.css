@@ -1,0 +1,21 @@
+/*Colors for page*/
+
+/*
+Blue: #3498db 
+Gray: #bdc3c7 
+White: #ffffff 
+*/
+
+/*fonts for page*/
+
+@font-face {
+    font-family: 'imp_Roboto';
+    src: url('fonts/roboto/Roboto-Regular.ttf') format('woff2'),
+}
+
+/*styling body*/
+
+body {
+    font-family: 'imp_Roboto', Arial, sans-serif;
+    display: grid;
+}
