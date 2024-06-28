@@ -13,9 +13,160 @@ White: #ffffff
     src: url('fonts/roboto/Roboto-Regular.ttf') format('woff2'),
 }
 
+/*styling html*/
+
+html {
+    background-color: black;
+}
+
 /*styling body*/
 
 body {
     font-family: 'imp_Roboto', Arial, sans-serif;
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
+
+/*styling images*/
+
+img {
+    border-radius: 50%;
+}
+
+/*styling sections*/
+
+/*styling header and content*/
+
+header {
+    background-color: #ffffff;
+    grid-column: 2 / 6;
+}
+
+.top_header {
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.top_left {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    
+}
+
+.top_right {
+    display: flex;
+    gap: 30px;
+    margin-left: 450px;
+}
+
+.searchbar {
+    background-color: #bdc3c7;
+    width: 600px; 
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+.bottom_header {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.bottom_left {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px; 
+}
+
+.text-container p,
+.text-container h3 {
+    margin: 0; 
+    line-height: 1.4;
+}
+
+.bottom_right {
+    display: flex;
+    gap: 30px;
+    margin-left: 550px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 30px;
+}
+
+.head-btn {
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 1px 48px; 
+    border-radius: 48px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+/*styling sidebar and content*/
+
+.sidebar {
+    background-color: #3498db;
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
+
+.sidebar p,
+.sidebar h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.top_text {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 25px;
+    gap: 10px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+
+.top_text img {
+    margin-top: 15px;
+}
+
+.mid_text {
+    margin-left: 50px;
+    gap: 30px;
+    font-size: large;
+}
+
+.text {
+    margin-left: 25px;
+}
+
+.com_text {
+    margin-bottom: 80px;
+}
+
+/*styling card area and content*/
+
+.card_area {
+    background-color: #bdc3c7;
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    padding: 30px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*styling annoucments and trending area and content*/
+
+.announcements_trending {
+    background-color: #bdc3c7;
+    padding: 30px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+} 

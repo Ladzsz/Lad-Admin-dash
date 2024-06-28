@@ -12,30 +12,44 @@
 
         <!--top of header-->
         <div class="top_header">
-            <p>🔍</p>
-            <div class="searchbar"></div>
-            <p>🔔</p>
-            <img src="images/Logo.jpg" alt="logo image" width="50" height="50">
-            <h4>London Mason</h4>
+            <div class="top_left">
+                <p>🔍</p>
+                <div class="searchbar"></div>
+            </div>
+
+            <div class="top_right">
+                <p>🔔</p>
+                <img src="images/Logo.jpg" alt="logo image" width="50" height="50">
+                <h4>London Mason</h4>
+            </div>
         </div>
 
         <!--bottom of header-->
         <div class="bottom_header">
-            <img src="images/Logo.jpg" alt=" logo image" width="50" height="50">
-            <p style="font-weight: bold;">Hi there,<br>
-            <h3>London Mason (@London)</h3></p>
-
+            <div class="bottom_left">
+                <img src="images/Logo.jpg" alt=" logo image" width="50" height="50">
+                <div class="text-container">
+                    <p><span style="font-weight: bold;">Hi there,</span></p>
+                    <h3>London Mason (@London)</h3>
+                </div>
+            </div>
+            
+            
+            <div class="bottom_right">
             <!--simulating buttons-->
-            <div class="new-btn">
-                <p>New</p>
-            </div>
-
-            <div class="upload-btn">
-                <p>Upload</p>
-            </div>
-
-            <div class="share-btn">
-                <p>Share</p>
+            
+            <div class="btn-container">
+                <div class="head-btn">
+                    <p>New</p>
+                </div>
+    
+                <div class="head-btn">
+                    <p>Upload</p>
+                </div>
+    
+                <div class="head-btn">
+                    <p>Share</p>
+                </div>
             </div>
         </div>
     </header>
@@ -61,7 +75,9 @@
             <br>
             <p>&#128203; <span class="text">Tasks</span></p>
             <br>
-            <p>&#127760; <span class="text">Communities</span></p>
+            <div class="com_text">
+                <p>&#127760; <span class="text">Communities</span></p>
+            </div>
             <br><br>
             <p>&#9881; <span class="text">Settings</span></p>
             <br><br>
@@ -132,7 +148,7 @@
     </section>
 
     <!--announcements area-->
-    <section class="announcments_trending">
+    <section class="announcements_trending">
         <h3>Announcements</h3>
 
         <div class="Announcements">
