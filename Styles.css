@@ -137,7 +137,27 @@ header {
     grid-row: 2 / 3;
     padding: 30px; 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    
 }
+
+.card-container {
+    display: grid;
+    grid-template-rows: repeat(3, 250px);
+    grid-template-columns: repeat(2, 430px);
+    gap: 25px;
+}
+
+
+    
+
+
+.cards {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border-left: solid darkgoldenrod 5px;
+}
+
 
 /*styling annoucments and trending area and content*/
 
