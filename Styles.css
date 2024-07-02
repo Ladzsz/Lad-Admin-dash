@@ -145,13 +145,9 @@ header {
 .card-container {
     display: grid;
     grid-template-rows: repeat(3, 250px);
-    grid-template-columns: repeat(2, 430px);
+    grid-template-columns: repeat(3, 400px);
     gap: 25px;
 }
-
-
-    
-
 
 .cards {
     background-color: white;
@@ -161,6 +157,10 @@ header {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+.emojis {
+    margin-left: 300px;
+    margin-top: 80px;
+}
 
 /*styling annoucments and trending area and content*/
 
